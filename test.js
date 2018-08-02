@@ -8,14 +8,14 @@ const util = require('util');
 
 const JS2SVG = require('svgo/lib/svgo/js2svg');
 
-let svgstr = fs.readFileSync('./example/sketch_camera.svg').toString();
+let svgstr = fs.readFileSync('./example/sketch_dialpad.svg').toString();
 
 (async() => {
 
     let svgOptimized = await svgo(svgstr);
     let jsObj = await svg2js(svgOptimized);
     let xml = js2vectordrawable(jsObj);
-    //console.log(svgOptimized);
+    console.log(svgOptimized);
     //console.log(jsObj);
     console.log(xml)
 
