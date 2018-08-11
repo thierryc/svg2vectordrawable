@@ -1,6 +1,6 @@
 # SVG2VectorDrawable
 
-Node.js module and Command-line tools for convert SVG to Android vector drawable.
+Node.js module and command-line tools for convert SVG to Android vector drawable.
 
 ## Use in node.js
 
