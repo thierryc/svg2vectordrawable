@@ -9,19 +9,25 @@
   },
   "homepage": "https://github.com/Ashung/svg2vectordrawable",
   "licence": "MIT",
+  "main": "./lib/svg2vectordrawable.js",
   "bin": {
-    "s2v": "./bin/s2v.js"
+    "svg2avd": "./bin/svg2avd.js",
+    "svg2vectordrawable": "./bin/svg2avd.js",
+    "svg2drawable": "./bin/svg2avd.js",
+    "svg2android": "./bin/svg2avd.js",
+    "s2v": "./bin/svg2avd.js"
   },
   "keywords": [
     "svg",
     "Android",
     "vector drawable",
-    "s2v",
+    "svg2avd",
     "svg2vectordrawable",
     "svg2drawable",
     "svg2android"
   ],
   "dependencies": {
+    "coa": "^2.0.1",
     "svg-path-bounds": "^1.0.1",
     "svgo": "^1.0.5"
   },
