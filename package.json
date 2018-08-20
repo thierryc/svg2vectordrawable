@@ -11,16 +11,18 @@
   "licence": "MIT",
   "main": "./lib/svg2vectordrawable.js",
   "bin": {
+    "s2v": "./bin/svg2vectordrawable",
     "svg2avd": "./bin/svg2vectordrawable",
-    "svg2vectordrawable": "./bin/svg2vectordrawable",
-    "svg2drawable": "./bin/svg2vectordrawable",
     "svg2android": "./bin/svg2vectordrawable",
-    "s2v": "./bin/svg2vectordrawable"
+    "svg2vector": "./bin/svg2vectordrawable",
+    "svg2drawable": "./bin/svg2vectordrawable",
+    "svg2vectordrawable": "./bin/svg2vectordrawable"
   },
   "keywords": [
     "svg",
-    "Android",
+    "android",
     "vector drawable",
+    "s2v",
     "svg2avd",
     "svg2vectordrawable",
     "svg2drawable",
@@ -28,7 +30,7 @@
   ],
   "dependencies": {
     "coa": "^2.0.1",
-    "fs-extra": "^7.0.0",
+    "mkdirp": "^0.5.1",
     "svg-path-bounds": "^1.0.1",
     "svgo": "^1.0.5"
   },
